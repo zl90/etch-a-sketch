@@ -10,6 +10,13 @@ html {
     width: 128px;
 }
 
+.btn-standard,
+.btn-rainbow,
+.btn-clear,
+.btn-transparent {
+    width: 160px;
+}
+
 .grid-square {
     background-color: aliceblue;
 }
