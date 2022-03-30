@@ -6,8 +6,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- My own CSS file -->
@@ -17,17 +16,41 @@
     <body>
 		<nav class="green darken-2" role="navigation">
 			<div class="nav-wrapper container center">
-				<a id="logo-container" href="#" class="brand-logo black-text center">Atch-a-Sketch</a>
+				<a id="logo-container" href="#" class="brand-logo black-text center">Etch-a-Sketch</a>
 			</div>
 		</nav>
 		
-		<div class="grid-container container center">
+		<div class="content-container">
+			<div class="options-container">
+				<h5 class="green-text">Options</h5>
+				<div class="button-container">
+					<div class="button-container-left">
+						<p class="green-text">Grid size</p>
+						<button class="btn black-text grid-16 green darken-1 waves-effect waves-light"> 16 x 16 </button>
+						<button class="btn black-text grid-32 green darken-1 waves-effect waves-light"> 32 x 32 </button>
+						<button class="btn black-text grid-64 green darken-1 waves-effect waves-light"> 64 x 64 </button>
+						<button class="btn black-text grid-128 green darken-1 waves-effect waves-light">128 x 128</button>
+					</div>
+					<div class="button-container-right">
+						<p class="green-text">Customize</p>
+						<button class="btn grid-16 black-text green darken-1 waves-effect waves-light">Standard mode</button>
+						<button class="btn grid-32 black-text green darken-1 waves-effect waves-light">Rainbow mode</button>
+						<button class="btn grid-64 black-text orange darken-3 waves-effect waves-light">Clear</button>
+					</div>
+				</div>
+			</div>
 
+			<div class="grid-container">
+				
+			</div>
 		</div>
+		
 
 
         <!--Materialize script-->
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!--My script-->
+		<script type="text/javascript" src="javascript.js"></script>
     </body>
   </html>
         

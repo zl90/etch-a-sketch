@@ -3,11 +3,67 @@ html {
     background-color: rgb(41, 40, 46);
 }
 
+.grid-16,
+.grid-32,
+.grid-64,
+.grid-128 {
+    width: 128px;
+}
+
+.grid-square {
+    background-color: aliceblue;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.button-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.button-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+}
+.button-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.options-container {
+    width: 360px;
+    border: 1px solid #388e3c;
+    box-shadow: 3px 3px 3px rgb(25, 24, 27);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.grid-row {
+    display: flex;
+    flex: 1;
+}
+
 .grid-container {
     width: 800px;
     height: 800px;
     border: 1px solid #388e3c;
-    margin-top: 32px;
-    box-shadow: 3px 3px 3px rgb(25, 24, 27);
     
+    box-shadow: 3px 3px 3px rgb(25, 24, 27);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
