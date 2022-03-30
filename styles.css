@@ -2,3 +2,12 @@ html {
     height: 100%;
     background-color: rgb(41, 40, 46);
 }
+
+.grid-container {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #388e3c;
+    margin-top: 32px;
+    box-shadow: 3px 3px 3px rgb(25, 24, 27);
+    
+}
