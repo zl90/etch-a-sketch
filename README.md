@@ -1,7 +1,24 @@
 # etch-a-sketch
-My submission for the Etch-A-Sketch assignment on The Odin Project: https://www.theodinproject.com/lessons/foundations-etch-a-sketch
+### Paint-by-Pixel Image Creation App
 
-Problem solving steps:
+Live Demo:  
+https://zl90.github.io/etch-a-sketch/
+
+### Desktop view:
+
+![Project Screenshot](https://zl90.github.io/etch-a-sketch/project-screenshot.png)
+
+This project was created for the [Etch-a-Sketch assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/etch-a-sketch-project) as part of [The Odin Project](https://www.theodinproject.com) curriculum. I met all the assignment objectives.
+
+### Objectives
+
+1. Website with 16x16 grid of square `<div>` elements
+2. Change color of each `<div>` on mouse-over
+3. A "clear" button to clear the grid
+4. Adjustable grid size
+5. (+) Option to use random color per pixel
+
+### Problem solving steps:
 1) Understand:
     - I will be creating a web page with a 16x16 grid on it. When the user mouses over each grid square, it will change colour, giving the illusion of drawing on the grid.
     - I will be adding a button somewhere on the screen to clear the current grid.
